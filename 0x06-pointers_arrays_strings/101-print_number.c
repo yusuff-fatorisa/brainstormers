@@ -11,7 +11,7 @@ void print_number(int n)
 		_putchar('-');
 	}
 
-	for (; tens < n; tens *=10)
+	for (; tens <= n; tens *=10)
 		;
 	tens /= 10;
 
